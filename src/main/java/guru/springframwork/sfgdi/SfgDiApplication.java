@@ -1,6 +1,6 @@
 package guru.springframwork.sfgdi;
 
-import guru.springframework.sfgdi.controllers.PetController;
+import guru.springframwork.sfgdi.controllers.PetController;
 import guru.springframwork.sfgdi.controllers.*;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -15,7 +15,7 @@ public class SfgDiApplication {
 
 		PetController petController = ctx.getBean("petController", PetController.class);
 		System.out.println("--- The Best Pet is ---");
-		System.out.println(petController.whichPetIsTheBest());
+		System.out.println(petController.whichPetIsBest());
 
 		I18nController i18nController = (I18nController) ctx.getBean("i18nController");
 		System.out.println(i18nController.sayHello());

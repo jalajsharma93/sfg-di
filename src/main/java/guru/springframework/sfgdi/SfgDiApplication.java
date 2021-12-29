@@ -1,7 +1,7 @@
-package guru.springframwork.sfgdi;
+package guru.springframework.sfgdi;
 
-import guru.springframwork.sfgdi.controllers.PetController;
-import guru.springframwork.sfgdi.controllers.*;
+import guru.springframework.sfgdi.controllers.PetController;
+import guru.springframework.sfgdi.controllers.*;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
